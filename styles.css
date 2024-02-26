@@ -140,7 +140,7 @@ html {
 
 .container {
     display: grid;
-    height: 100vh;
+    /* height: 100vh; */
     grid-template-columns: 1fr 4fr;
 }
 
