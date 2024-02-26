@@ -133,3 +133,21 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
+html {
+    font-family: monospace;
+}
+
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 4fr;
+}
+
+.sidebar {
+    background-color: #57534e;
+}
+
+.main-content {
+    background-color: #e7e5e4;
+}
