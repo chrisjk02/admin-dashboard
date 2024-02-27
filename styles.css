@@ -245,6 +245,8 @@ input {
     width: 30px;
     height: 30px;
     border-radius: 50px;
+    background-image: url("https://i.pinimg.com/736x/e5/59/a4/e559a43c018434ed69c5220f85f0f6d6.jpg");
+    background-size: cover;
 }
 
 .username {
