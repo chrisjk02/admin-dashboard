@@ -193,6 +193,7 @@ html {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: repeat(2, 1fr);
+    padding: 5px 25px;
 }
 
 .search-icon {
@@ -279,7 +280,7 @@ input {
     display: flex;
     padding: 16px;
     gap: 8px;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
 }
 
