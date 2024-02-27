@@ -292,3 +292,9 @@ button {
     text-align: center;
     border-radius: 2rem;
 }
+
+.content {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+}
