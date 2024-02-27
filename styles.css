@@ -299,7 +299,7 @@ button {
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: repeat(2, 1fr);
-    padding: 15px 35px;
+    padding: 35px;
     gap: 25px;
 }
 
