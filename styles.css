@@ -326,3 +326,10 @@ button {
 .card .prj-descrip {
     font-size: 12px;
 }
+
+.prj-icon {
+    display: flex;
+    justify-content: flex-end;
+    gap: 24px;
+    padding: 16px;
+}
