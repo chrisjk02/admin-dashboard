@@ -138,6 +138,11 @@ html {
     font-family: monospace;
 }
 
+.nav-icon {
+    width: 20px;
+    height: auto;
+}
+
 .container {
     display: grid;
     height: 100vh;
@@ -159,6 +164,7 @@ html {
     display: grid;
     grid-template-columns: 1fr 3fr;
     align-items: start;
+    gap: 8px;
 }
 
 .logo span svg {
@@ -177,4 +183,112 @@ html {
 
 .main-content {
     background-color: #e7e5e4;
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+}
+
+.header {
+    background-color: #fafaf9;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.search-icon {
+    width: 25px;
+    height: auto;
+}
+
+.search {
+    display: flex;
+    grid-template-columns: 1fr 5fr;
+    padding: 20px;
+    gap: 8px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+form {
+    background-color: rgb(218, 218, 218);
+    width: 400px;
+    height: 30px;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+input {
+    all: unset;
+    font: 16px;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+    gap: 16px;
+}
+
+.notification {
+    width: 20px;
+    height: auto;
+}
+
+.pfp {
+    background-color: rgb(218, 218, 218);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+
+.username {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.greeting {
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+}
+
+.greet-text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.greeting .pfp {
+    width: 50px;
+    height: 50px;
+}
+
+.greet-text .message {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.buttons {
+    display: flex;
+    padding: 16px;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    all: unset;
+    background-color: rgb(146, 146, 236);
+    width: 70px;
+    height: 25px;
+    padding: 4px;
+    color: white;
+    text-align: center;
+    border-radius: 2rem;
 }
