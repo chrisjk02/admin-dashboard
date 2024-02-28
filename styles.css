@@ -301,16 +301,17 @@ button {
 .content {
     display: grid;
     grid-template-columns: 3fr 1fr;
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: 20px repeat(3, 1fr);
     padding: 35px;
     gap: 25px;
 }
 
 .projects {
-    grid-row: 1/3;
+    grid-row: 2 / 5;
+    grid-column: 1 / 2;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-template-rows: 20px repeat(3, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-rows: repeat(3, minmax(150px, 1fr));
     gap: 16px;
 }
 
@@ -324,9 +325,9 @@ button {
     border-radius: 1rem;
 }
 
-.section-title {
-    grid-column: 1 / span 3;
-}
+/* .section-title {
+    grid-column: span 1 / -1;
+} */
 
 .prj-title {
     font-weight: bold;
@@ -373,6 +374,7 @@ button {
     font-size: 10px;
 }
 
+
 .user {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -390,4 +392,14 @@ button {
     width: 50px;
     height: 50px;
     margin-right: 8px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.trending {
+    height: 100%;
 }
